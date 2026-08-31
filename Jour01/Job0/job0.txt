@@ -1,0 +1,14 @@
+a = (x + 5) 
+-> a = x + 5 car le "+" est prioritaire par rapport au "="
+
+a = (x = y) + 2 
+-> a = (x = y) + 2 car le "+" est prioritaire par rapport au "="
+
+a = (x == y) 
+-> a = x == y car le "==" est prioritaire par rapport au "="
+
+(a < b) && (c < d)
+-> a < b && c < d car le "<" est prioritaire par rapport au "&&"
+
+(i++) * (n + p)
+-> i++ * (n + p) car le "++" est prioritaire par rapport au "*" et parce que le "*" est prioritaire par rapport au "+"
