@@ -8,7 +8,7 @@ int main(void){
         cout << "Saisissez le " << values[i] << endl;
         cin >> array[i];
     }
-    int ht = array[0] * array[1];
-    int resultat = ht + ht * (array[2] / 100);
+    float ht = array[0] * array[1];
+    float resultat = ht + ht * (array[2] / 100);
     cout << "Le montant total TTC est de " << resultat << " euros" << endl;
 }
