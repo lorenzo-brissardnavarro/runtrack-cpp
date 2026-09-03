@@ -12,7 +12,7 @@ int main() {
         cout << "Donnez la limite : ";
         cin >> a;
     }
-    for (float i = 0 ; i <= a ; i++){
+    for (int i = 0 ; i <= a ; i++){
         cout << "F(" << i << ") =  " << f1 << endl;
         temp = f1 + f2;
         f1 = f2;
