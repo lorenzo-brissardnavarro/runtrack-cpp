@@ -17,8 +17,8 @@ class Chien : public Animal {
 
 public:
 
-    void crier();
-    void manger();
+    void crier() override;
+    void manger() override;
 };
 
 // Classe enfant chat qui hérite de la classe Animal
@@ -26,8 +26,8 @@ class Chat : public Animal {
 
 public:
 
-    void crier();
-    void manger();
+    void crier() override;
+    void manger() override;
 };
 
 #endif
