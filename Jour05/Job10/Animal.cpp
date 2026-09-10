@@ -20,10 +20,6 @@ void Chat::manger() {
     cout << "Le chat mange du poisson" << endl;
 }
 
-void Chat::manger(const string& texte) {
-    if(texte == "des croquettes"){
-       cout << "Le chat mange des croquettes" << endl; 
-    } else {
-        cout << "Le chat mange du poisson" << endl;
-    }
+void Chat::manger(string texte) {
+    cout << "Le chat mange " << texte << endl; 
 }

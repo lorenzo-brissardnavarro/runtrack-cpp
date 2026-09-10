@@ -45,7 +45,7 @@ public:
 
     void crier() override;
     void manger() override;
-    void manger(const string& texte);
+    void manger(string texte);
 };
 
 #endif
